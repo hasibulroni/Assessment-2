@@ -144,8 +144,3 @@ int determinant(int f[20][20],int x)
   }
 
 }
-//End 
-//<<<<<<< feature-y
-
-=======
-//https://brainly.in/question/5424437
