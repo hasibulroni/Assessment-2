@@ -145,5 +145,4 @@ int determinant(int f[20][20],int x)
 
 }
 //End 
-//https://brainly.in/question/5424437
-//https://stackoverflow.com/questions/41384020/c-prograk-to-calculate-the-deterkinant-of-a-nxn-katrix
+
