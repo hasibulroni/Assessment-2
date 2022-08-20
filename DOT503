@@ -1,0 +1,3 @@
+Reconfigure the Jenkins job ‘DOT503’ so that whenever any change is made to the
+master branch of your repository in GitHub, Jenkins shall automatically start the build
+process within two minutes of the update
