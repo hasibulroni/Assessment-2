@@ -1,3 +1,17 @@
-Reconfigure the Jenkins job ‘DOT503’ so that whenever any change is made to the
-master branch of your repository in GitHub, Jenkins shall automatically start the build
-process within two minutes of the update
+Jenkins shall automatically start the build
+process within two minutes of the update.
+
+
+ Open Jenkins dashboard. Click on manage jenkins
+
+Click on Configure system and under github configuration click advanced tab.
+
+Check 'Specify another hook url' for GitHub configuration. 
+
+Now you will get a url in the textbox. Copy this url as it is required in the next steps.
+
+Now open your github repository. Go to settings -> webhooks -> add webhooks.
+
+Now paste the url from step 4 in the payload url section. Next click on just push the event Now you should be able to see the added webhook in the list of webhooks.
+
+Now go to jenkins dashboard. Go to your project configuration. In the build triggers section select github hook trigger for git scm polling. Save the changes
